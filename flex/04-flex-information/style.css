@@ -8,10 +8,20 @@ img {
 }
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
 }
 
+.body {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 52px;
+}
+.text {
+  flex-wrap: wrap;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
